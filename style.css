@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2a0f0f;
+    color: white;
+}
+
+header {
+    background: #ff02026c;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.artists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #8e0c0c;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background: #440505;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #620b0b;
+}
+
+.form {
+    margin-top: 40px;
+    background: #400a0a;
+    padding: 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.success {
+    color: #22cc61;
+    margin-top: 10px;
+}
+.card img {
+    width: 70%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}

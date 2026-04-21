@@ -1,0 +1,64 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BenzoBooking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+БейбиБензоБукинг
+</header>
+<div class="container">
+<h2>Популярные артисты</h2>
+<div class="artists">
+<div class="card">
+    <h3>Friendly Thug</h3>
+    <img src="friendlythug.jpg" alt="Friendly Thug">
+    <p>Street</p>
+    <p>Список городов и примерные даты концертов
+        Сообщим позже.</p>
+    <button class="order-btn" data-artist="Friendly Thug">Заказать</button>
+</div>
+<div class="card">
+    <h3>Big Baby Tape</h3>
+    <img src="bbt.jpg" alt="Big Baby Tape" class="artist-image">
+    <p>Trap</p>
+    <p>Список городов и примерные даты концертов
+Воронеж: 27 марта и 10 апреля
+Новосибирск: 5 апреля
+Уфа: 5 апреля
+Самара: 15 мая
+Казань: 15 и 29 мая
+Нижний Новгород: 29 марта
+Ростов-на-Дону: 17 мая
+Санкт-Петербург: 8 апреля
+Москва: 12 апреля
+Краснодар: 30 мая
+Екатеринбург: 3 мая
+Тюмень: 1 мая
+Пенза: 13 мая
+Пермь: 5 мая</p>
+<button class="order-btn" data-artist="Big Baby Tape">Заказать</button>
+</div>
+<div class="card">
+    <h3>Платина</h3>
+    <img src="platina.jpg" alt="Платина" class="artist-image">
+    <p>Cloud Rap</p>
+    <p>Список городов и примерные даты концертов
+        Сообщим позже.</p>
+    <button class="order-btn" data-artist="Платина">Заказать</button>
+</div>
+</div>
+<div class="form" id="form">
+    <h2>Оформить заказ</h2>
+    <p id="artistName"></p>
+    <input type="text" id="name" placeholder="Ваше имя">
+    <input type="tel" id="phone" placeholder="Телефон">
+    <textarea id="details" placeholder="Детали концерта, где и когда"></textarea>
+    <div class="success" id="success"></div>
+    <button id="submitBtn" onclick="submitForm()">Отправить заказ</button>
+</div>
+</div>
+<script src="sda.js"></script>
+</body>
+</html>
