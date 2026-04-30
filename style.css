@@ -82,3 +82,16 @@ input, textarea {
 .card:hover img {
     transform: scale(1.1);
 }
+.footer {
+    background: #ff02026c;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.a href {
+    color: #ff0202;
+    text-decoration: khaki;
+    text-align: center;
+
+}
